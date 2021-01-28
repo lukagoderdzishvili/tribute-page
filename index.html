@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Albert Einstein Tribute Web page" />
+    <meta name="keywords" content="Albert, Einstein, tribute, page" />
+    <meta name="author" content="Luka Goderdzishvili" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="https://scidraw.io/uploads/albert-einstein.svg" type="image/x-icon" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Tribute page</title>
+</head>
+<body>
+<section id="main">
+    <div class="container">
+        <header class="header">
+            <ul class="header-ul">
+             <li class="header-li"><a href="#page1" id="header-link-page1" class="header-link" onclick="page1()">Statistical mechanics</a></li>
+             <li class="header-li"><a href="#page1" id="header-link-page2" class="header-link" onclick="page2()">Wormholes</a></li>
+             <li class="header-li"><a href="#page1" id="header-link-page3" class="header-link" onclick="page3()">Cartan theory</a></li>
+             <li class="header-li"><a href="#page1" id="header-link-page4" class="header-link" onclick="page4()">Equations of motion</a></li>  
+             <li class="header-li"><a href="#page1" id="header-link-page5" class="header-link" onclick="page5()">Old quantum theory</a></li>
+             <li class="header-li"><a href="#page1" id="header-link-page6" class="header-link" onclick="page6()">Zero-point energy</a></li> 
+            </ul>
+       </header>
+        <div class="content">
+           <div class="nameAndPortrait">
+               <div class="texts-container">
+                 <h1 class="name" id="h">Albert Einstein</h1>
+                 <p class="quote">"Imagination is more important than knowledge."</p>
+                </div>
+                <div id="img-div">
+                <img src="https://i.ibb.co/XZ8j3fB/portrait.png" alt="" class="img1" id="image" />
+                <h1 id="img-caption">luka</h1>
+                <a href="#" id="tribute-link" target="_blank">luka</a>
+                </div>
+            </div>
+
+
+           <div class="videoAndBiography">
+             <iframe class="videoAboutBiography" src="https://www.youtube.com/embed/KyjQJBDD5V4"></iframe> 
+             <p class="biography" id="tribute-info">Albert Einstein (14 March 1879 - 18 April 1955) was a German-born theoretical physicist who developed the general theory of relativity, one of the two pillars of modern physics (alongside quantum mechanics). Einstein is well known for his theories about light, matter, gravity, space, and time.</p>  
+           </div>
+           <div class="voiceAndRocket">
+             <audio controls>
+                 <source class="voice" src="https://upload.wikimedia.org/wikipedia/commons/4/46/03_ALBERT_EINSTEIN.ogg" type="audio/ogg" />
+             </audio>
+             <div class="img-container1">
+                 <img src="https://i.ibb.co/CzgdKbg/rocket.png" alt="" class="img2" />
+            </div>     
+           </div>
+
+    </div>
+    
+    <article class="page1" id="page1">
+        <div class="content">
+            <h3>luka</h3>
+            <div class="texts">
+                <p id="title">click home button</p>
+                <div id="active">
+                    <a href="#" class="active-link">HOME</a>
+                </div>
+                <p id="page1-p">                    
+                </p>
+            </div>
+        </div>
+    </article>
+    <script src="js/index.js"></script>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    </div>
+</section>
+</body>
+</html>
